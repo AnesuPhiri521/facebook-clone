@@ -14,6 +14,9 @@ import { HomeRightComponent } from './facebook/componets/home-right/home-right.c
 import { HomeCenterComponent } from './facebook/componets/home-center/home-center.component';
 import { HomeLeftComponent } from './facebook/componets/home-left/home-left.component';
 import { StoriesReelsComponent } from './facebook/componets/stories-reels/stories-reels.component';
+import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
+import { OnMindComponent } from './facebook/componets/on-mind/on-mind.component';
+import { HomeMainContentComponent } from './facebook/componets/home-main-content/home-main-content.component';
 
 @NgModule({
   declarations: [
@@ -25,15 +28,18 @@ import { StoriesReelsComponent } from './facebook/componets/stories-reels/storie
     HomeRightComponent,
     HomeCenterComponent,
     HomeLeftComponent,
-    StoriesReelsComponent
+    StoriesReelsComponent,
+    OnMindComponent,
+    HomeMainContentComponent
   ],
-	imports: [
-		BrowserModule,
-		AppRoutingModule,
-		BrowserAnimationsModule,
-		MatToolbarModule,
-		MatIconModule
-	],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatIconModule,
+        FontAwesomeModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

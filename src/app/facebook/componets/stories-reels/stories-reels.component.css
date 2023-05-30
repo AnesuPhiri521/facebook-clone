@@ -1,0 +1,49 @@
+.stories_reels{
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+
+.stories{
+	padding: 5px;
+}
+
+.story{
+	/*background-color: black;*/
+	/*margin-left: 15px;*/
+	border-radius: 10px;
+	margin-bottom: 10px!important;
+}
+
+.story_img{
+	width: 125px;
+	height: 160px;
+	border-radius: 10px;
+}
+
+.story_name{
+	margin-top: -20px !important;
+}
+
+.icon{
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.active-txt{
+	color: #2e89ff;
+}
+
+.a-stories{
+	border-bottom: #2e89ff solid 3px;
+	width: 50%;
+	padding-bottom: 15px;
+}
+
+.a-reels{
+	width: 50%;
+}
+
+.break-line{
+	padding: 0;
+	margin: 0;
+}

@@ -1,6 +1,6 @@
 <nav class="navbar1">
-	<div class="row first-row">
-		<div class="col-4">
+	<div class="d-flex first-row">
+		<div style="width: 30%">
 			<div class="row">
 				<div class="col-1">
 					<a class="navbar-brand" routerLink="/">
@@ -14,25 +14,25 @@
 			</div>
 		</div>
 
-		<div class="col-4">
+		<div style="width: 40%">
 			<div class="row">
-				<div class="col"><mat-icon>home</mat-icon></div>
-				<div class="col"><mat-icon>subscriptions</mat-icon></div>
-				<div class="col"><mat-icon>maps_home_work</mat-icon></div>
-				<div class="col"><mat-icon>groups</mat-icon></div>
-				<div class="col"><mat-icon>watch_later</mat-icon></div>
+				<div class="col text-center icon"><fa-icon [icon]="faHome"></fa-icon></div>
+				<div class="col text-center"><mat-icon>subscriptions</mat-icon></div>
+				<div class="col text-center"><mat-icon>maps_home_work</mat-icon></div>
+				<div class="col text-center"><mat-icon>groups</mat-icon></div>
+				<div class="col text-center"><mat-icon>watch_later</mat-icon></div>
 			</div>
 		</div>
 
-		<div class="col-4">
+		<div style="width: 30%">
 			<div class="d-flex flex-row-reverse apps">
 				<div class="col-4">
 					<div class="row">
 						<div class="col"><mat-icon size="20">apps</mat-icon></div>
 						<div class="col"><mat-icon size="20">message</mat-icon></div>
-						<div class="col"><mat-icon size="20">notifications_none</mat-icon></div>
-<!--						TODO Insert image-->
-						<div class="col"></div>
+						<div class="col">
+							<img src="assets/images/placeholder_user.jpg" width="40" height="40" alt="" class="nav-profile">
+						</div>
 					</div>
 				</div>
 			</div>

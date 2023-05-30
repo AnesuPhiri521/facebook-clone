@@ -6,3 +6,15 @@ a{
 .left{
 	margin-left: 20px;
 }
+
+.nav-profile{
+	border-radius: 20px;
+}
+
+.home-left-txt{
+	margin-left: 10px;
+}
+
+.icon{
+	font-size: 25px;
+}

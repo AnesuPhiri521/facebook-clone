@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {faUsers,faClockRotateLeft} from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-home-left',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-left.component.css']
 })
 export class HomeLeftComponent {
-
+	faUsers=faUsers;
+	faClockRotateLeft=faClockRotateLeft;
 }

@@ -13,3 +13,12 @@
 	border-radius: 20px;
 }
 
+.nav-profile{
+	border-radius: 20px;
+}
+
+.icon{
+	font-size: 20px;
+	color: #2e89ff;
+	border-bottom: #2e89ff solid 3px;
+}
